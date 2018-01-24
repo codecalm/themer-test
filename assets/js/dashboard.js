@@ -24,9 +24,5 @@ require.config({
     }
 });
 
-requirejs(['popper'], function (p) {
-    window.Popper = p;
-    require(['core']);
-});
-
 window.dashboard = {};
+require(['core']);

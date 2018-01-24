@@ -53,6 +53,10 @@
 }
 
 /*-- Text on Chart --*/
+.c3-text {
+  font-size: 12px;
+}
+
 .c3-text.c3-empty {
   fill: #808080;
   font-size: 2em;
